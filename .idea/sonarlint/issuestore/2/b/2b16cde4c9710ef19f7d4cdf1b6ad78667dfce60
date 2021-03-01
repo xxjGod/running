@@ -1,0 +1,21 @@
+
+a
+java:S1192"FDefine a constant instead of duplicating this literal "2.8.2" 3 times.(øöÄ8Ÿøó‚ö.
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(²êò’8Ÿøó‚ö.
+[	java:S125"<This block of commented-out lines of code should be removed.(¦ù¢¢ÿÿÿÿÿ8Ÿøó‚ö.
+V	java:S125"<This block of commented-out lines of code should be removed.(É×ƒ˜8Ÿøó‚ö.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(°„Ìõùÿÿÿÿ8Ÿøó‚ö.
+[	java:S125"<This block of commented-out lines of code should be removed.(ÆÃìÈùÿÿÿÿ8Ÿøó‚ö.
+R
+java:S1854"7Remove this useless assignment to local variable "bak".(Ïû¹š8Ÿøó‚ö.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Œ¨Ë„8Ÿøó‚ö.
+a
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(İ«Œ¢ùÿÿÿÿ8Ÿøó‚ö.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(†€¦¬øÿÿÿÿ8Ÿøó‚ö.
+C
+java:S1481"(Remove this unused "bak" local variable.(Ïû¹š8Ÿøó‚ö.
+H
+java:S1144"-Remove this unused private "test1234" method.(«²‚¸8Ÿøó‚ö.
+L
+java:S1144",Remove this unused private "test123" method.(ÌÄ‡×şÿÿÿÿ8Ÿøó‚ö.

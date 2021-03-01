@@ -1,0 +1,12 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "m".(Ùßãœ8Æã•œô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ8Æã•œô.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ô¯™8æ½Œ›ô.
+[	java:S125"<This block of commented-out lines of code should be removed.(áÝ˜ïüÿÿÿÿ8€ó“œô.
+J
+java:S1144"*Remove this unused private "test1" method.(•Ü±ªÿÿÿÿÿ8€ó“œô.
+A
+java:S1481"&Remove this unused "m" local variable.(Ùßãœ8Æã•œô.
+^
+java:S3518"CMake sure this expression can't be zero before doing this division.(Ùßãœ8Æã•œô.

@@ -1,0 +1,43 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(óûè«ıÿÿÿÿ8ÙÌµàô.
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(¹Â£†8ÉçÖŞô.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‘ÑÀ¢8ñÀÓŞô.
+[	java:S125"<This block of commented-out lines of code should be removed.(ä¶¡öûÿÿÿÿ8ùï÷Şô.
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(‘ÑÀ¢8ñÀÓŞô.
+A
+java:S2129"!Remove this "Integer" constructor(å²òÄıÿÿÿÿ8ÉçÖŞô.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹Â£†8ÉçÖŞô.
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(ô½»ç8è¡´àô.
+Y
+java:S4973"9Use the "equals" method if value comparison was intended.(¼ÒùÈùÿÿÿÿ8…¾ïàô.
+;
+java:S2129" Remove this "String" constructor(ª÷£8ë£‘àô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ8şš÷Şô.
+O
+java:S1874"/Remove this use of "Integer"; it is deprecated.(‰˜æ§üÿÿÿÿ8ÉçÖŞô.
+A
+java:S2129"!Remove this "Integer" constructor(‰˜æ§üÿÿÿÿ8ÉçÖŞô.
+O
+java:S1874"/Remove this use of "Integer"; it is deprecated.(å²òÄıÿÿÿÿ8ÉçÖŞô.
+Y
+java:S4973"9Use the "equals" method if value comparison was intended.(«ç¤Âÿÿÿÿÿ8şš÷Şô.
+Y
+java:S4973"9Use the "equals" method if value comparison was intended.(«ç¤Âÿÿÿÿÿ8ÙÌµàô.
+Y
+java:S4973"9Use the "equals" method if value comparison was intended.(ˆøã«ûÿÿÿÿ8ë£‘àô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Ú®†Œúÿÿÿÿ8Ä‚àô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ8è¡´àô.
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(³×¦‡8Ï—ÒŞô.
+;
+java:S2129" Remove this "String" constructor(ëõŸÅ8ÿöŞô.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(³×¦‡8Ï—ÒŞô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ˆøã«ûÿÿÿÿ8ë£‘àô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¼ÒùÈùÿÿÿÿ8…¾ïàô.
+@
+java:S2129" Remove this "String" constructor(óÅÌùÿÿÿÿ8ë£‘àô.
+Y
+java:S4973"9Use the "equals" method if value comparison was intended.(Ú®†Œúÿÿÿÿ8üàô.

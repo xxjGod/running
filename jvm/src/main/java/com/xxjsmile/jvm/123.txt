@@ -1,0 +1,180 @@
+Classfile /Users/xiaoxiangjie/testproject/running/jvm/src/main/java/com/xxjsmile/jvm/TestClassLoader.class
+  Last modified 2020-9-13; size 1272 bytes
+  MD5 checksum 62731f1a85dc5bbe86cef36846a34533
+  Compiled from "TestClassLoader.java"
+public class com.xxjsmile.jvm.TestClassLoader
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #19.#36        // java/lang/Object."<init>":()V
+   #2 = Methodref          #37.#38        // java/lang/ClassLoader.getSystemClassLoader:()Ljava/lang/ClassLoader;
+   #3 = String             #39            // com.xxjsmile.jvm.HelloWorld
+   #4 = Methodref          #37.#40        // java/lang/ClassLoader.loadClass:(Ljava/lang/String;)Ljava/lang/Class;
+   #5 = Fieldref           #41.#42        // java/lang/System.out:Ljava/io/PrintStream;
+   #6 = Class              #43            // java/lang/StringBuilder
+   #7 = Methodref          #6.#36         // java/lang/StringBuilder."<init>":()V
+   #8 = String             #44            // clz1:
+   #9 = Methodref          #6.#45         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #10 = Methodref          #19.#46        // java/lang/Object.hashCode:()I
+  #11 = Methodref          #6.#47         // java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+  #12 = Methodref          #6.#48         // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #13 = Methodref          #49.#50        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #14 = String             #51            // clz2:
+  #15 = Class              #52            // com/xxjsmile/jvm/TestClassLoader$1
+  #16 = Methodref          #15.#36        // com/xxjsmile/jvm/TestClassLoader$1."<init>":()V
+  #17 = Methodref          #49.#53        // java/io/PrintStream.println:(Z)V
+  #18 = Class              #54            // com/xxjsmile/jvm/TestClassLoader
+  #19 = Class              #55            // java/lang/Object
+  #20 = Utf8               InnerClasses
+  #21 = Utf8               <init>
+  #22 = Utf8               ()V
+  #23 = Utf8               Code
+  #24 = Utf8               LineNumberTable
+  #25 = Utf8               main
+  #26 = Utf8               ([Ljava/lang/String;)V
+  #27 = Utf8               StackMapTable
+  #28 = Class              #56            // "[Ljava/lang/String;"
+  #29 = Class              #57            // java/lang/ClassLoader
+  #30 = Class              #58            // java/lang/Class
+  #31 = Class              #59            // java/io/PrintStream
+  #32 = Utf8               Exceptions
+  #33 = Class              #60            // java/lang/Exception
+  #34 = Utf8               SourceFile
+  #35 = Utf8               TestClassLoader.java
+  #36 = NameAndType        #21:#22        // "<init>":()V
+  #37 = Class              #57            // java/lang/ClassLoader
+  #38 = NameAndType        #61:#62        // getSystemClassLoader:()Ljava/lang/ClassLoader;
+  #39 = Utf8               com.xxjsmile.jvm.HelloWorld
+  #40 = NameAndType        #63:#64        // loadClass:(Ljava/lang/String;)Ljava/lang/Class;
+  #41 = Class              #65            // java/lang/System
+  #42 = NameAndType        #66:#67        // out:Ljava/io/PrintStream;
+  #43 = Utf8               java/lang/StringBuilder
+  #44 = Utf8               clz1:
+  #45 = NameAndType        #68:#69        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #46 = NameAndType        #70:#71        // hashCode:()I
+  #47 = NameAndType        #68:#72        // append:(I)Ljava/lang/StringBuilder;
+  #48 = NameAndType        #73:#74        // toString:()Ljava/lang/String;
+  #49 = Class              #59            // java/io/PrintStream
+  #50 = NameAndType        #75:#76        // println:(Ljava/lang/String;)V
+  #51 = Utf8               clz2:
+  #52 = Utf8               com/xxjsmile/jvm/TestClassLoader$1
+  #53 = NameAndType        #75:#77        // println:(Z)V
+  #54 = Utf8               com/xxjsmile/jvm/TestClassLoader
+  #55 = Utf8               java/lang/Object
+  #56 = Utf8               [Ljava/lang/String;
+  #57 = Utf8               java/lang/ClassLoader
+  #58 = Utf8               java/lang/Class
+  #59 = Utf8               java/io/PrintStream
+  #60 = Utf8               java/lang/Exception
+  #61 = Utf8               getSystemClassLoader
+  #62 = Utf8               ()Ljava/lang/ClassLoader;
+  #63 = Utf8               loadClass
+  #64 = Utf8               (Ljava/lang/String;)Ljava/lang/Class;
+  #65 = Utf8               java/lang/System
+  #66 = Utf8               out
+  #67 = Utf8               Ljava/io/PrintStream;
+  #68 = Utf8               append
+  #69 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #70 = Utf8               hashCode
+  #71 = Utf8               ()I
+  #72 = Utf8               (I)Ljava/lang/StringBuilder;
+  #73 = Utf8               toString
+  #74 = Utf8               ()Ljava/lang/String;
+  #75 = Utf8               println
+  #76 = Utf8               (Ljava/lang/String;)V
+  #77 = Utf8               (Z)V
+{
+  public com.xxjsmile.jvm.TestClassLoader();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 8: 0
+
+  public static void main(java.lang.String[]) throws java.lang.Exception;
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=7, args_size=1
+         0: invokestatic  #2                  // Method java/lang/ClassLoader.getSystemClassLoader:()Ljava/lang/ClassLoader;
+         3: astore_1
+         4: aload_1
+         5: ldc           #3                  // String com.xxjsmile.jvm.HelloWorld
+         7: invokevirtual #4                  // Method java/lang/ClassLoader.loadClass:(Ljava/lang/String;)Ljava/lang/Class;
+        10: astore_2
+        11: pu't     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        14: new           #6                  // class java/lang/StringBuilder
+        17: dup
+        18: invokespecial #7                  // Method java/lang/StringBuilder."<init>":()V
+        21: ldc           #8                  // String clz1:
+        23: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        26: aload_2
+        27: invokevirtual #10                 // Method java/lang/Object.hashCode:()I
+        30: invokevirtual #11                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+        33: invokevirtual #12                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        36: invokevirtual #13                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        39: invokestatic  #2                  // Method java/lang/ClassLoader.getSystemClassLoader:()Ljava/lang/ClassLoader;
+        42: astore_3
+        43: aload_3
+        44: ldc           #3                  // String com.xxjsmile.jvm.HelloWorld
+        46: invokevirtual #4                  // Method java/lang/ClassLoader.loadClass:(Ljava/lang/String;)Ljava/lang/Class;
+        49: astore        4
+        51: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        54: new           #6                  // class java/lang/StringBuilder
+        57: dup
+        58: invokespecial #7                  // Method java/lang/StringBuilder."<init>":()V
+        61: ldc           #14                 // String clz2:
+        63: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        66: aload         4
+        68: invokevirtual #10                 // Method java/lang/Object.hashCode:()I
+        71: invokevirtual #11                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+        74: invokevirtual #12                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        77: invokevirtual #13                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        80: new           #15                 // class com/xxjsmile/jvm/TestClassLoader$1
+        83: dup
+        84: invokespecial #16                 // Method com/xxjsmile/jvm/TestClassLoader$1."<init>":()V
+        87: astore        5
+        89: aload         5
+        91: ldc           #3                  // String com.xxjsmile.jvm.HelloWorld
+        93: invokevirtual #4                  // Method java/lang/ClassLoader.loadClass:(Ljava/lang/String;)Ljava/lang/Class;
+        96: astore        6
+        98: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       101: aload_2
+       102: aload         6
+       104: if_acmpne     111
+       107: iconst_1
+       108: goto          112
+       111: iconst_0
+       112: invokevirtual #17                 // Method java/io/PrintStream.println:(Z)V
+       115: return
+      LineNumberTable:
+        line 15: 0
+        line 16: 4
+        line 18: 11
+        line 19: 39
+        line 20: 43
+        line 21: 51
+        line 30: 80
+        line 49: 89
+        line 50: 98
+        line 52: 115
+      StackMapTable: number_of_entries = 2
+        frame_type = 255 /* full_frame */
+          offset_delta = 111
+          locals = [ class "[Ljava/lang/String;", class java/lang/ClassLoader, class java/lang/Class, class java/lang/ClassLoader, class java/lang/Class, class java/lang/ClassLoader, class java/lang/Class ]
+          stack = [ class java/io/PrintStream ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class "[Ljava/lang/String;", class java/lang/ClassLoader, class java/lang/Class, class java/lang/ClassLoader, class java/lang/Class, class java/lang/ClassLoader, class java/lang/Class ]
+          stack = [ class java/io/PrintStream, int ]
+    Exceptions:
+      throws java.lang.Exception
+}
+SourceFile: "TestClassLoader.java"
+InnerClasses:
+     static #15; //class com/xxjsmile/jvm/TestClassLoader$1

@@ -1,0 +1,11 @@
+
+O	java:S125"<This block of commented-out lines of code should be removed.(éİø‰
+F
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(®ËêŞ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(“ş•ü
+L	java:S106"9Replace this use of System.out or System.err by a logger.(áç–‰
+J
+java:S1144"1Remove this unused private "needsCtxAttr" method.(¦ˆèœûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ãÀüÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(æéşşÿÿÿÿ

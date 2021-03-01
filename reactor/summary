@@ -1,0 +1,6 @@
+stream流式
+观察者模式，责任链，迭代器，发布-订阅
+
+四种角色
+publisher,subscriber,subscription(订阅控制器),processor(发布者｜订阅者)
+

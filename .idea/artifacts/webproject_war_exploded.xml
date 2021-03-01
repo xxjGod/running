@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webproject:war exploded">
+    <output-path>$PROJECT_DIR$/tomcat/target/webproject</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>webproject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webproject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-commons:6.2.1" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:6.2.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.8.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.13.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/tomcat/target/webproject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webproject/web/Web" />
+    </root>
+  </artifact>
+</component>

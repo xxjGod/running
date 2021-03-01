@@ -1,0 +1,47 @@
+
+_
+java:S2095m"IUse try-with-resources or close this "PrintStream" in a "finally" clause.(§„È
+Q	java:S125H"<This block of commented-out lines of code should be removed.(ªÚæº
+Q	java:S125"<This block of commented-out lines of code should be removed.(—ÍµÒ
+d
+java:S4042A"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²“µš
+\
+java:S1075g"ARefactor your code to get this URI from a customizable parameter.(ü½áïùÿÿÿÿ
+\
+java:S1075o"ARefactor your code to get this URI from a customizable parameter.(Û»—†ùÿÿÿÿ
+W
+java:S1075<"ARefactor your code to get this URI from a customizable parameter.(öÔú™
+R	java:S899p"=Do something with the "boolean" value returned by "renameTo".(êÜº‚
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(–˜ñ»ÿÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ÔÏÛŸ
+?	java:S108„")Either remove or fill this block of code.(âº‚é
+H
+java:S1144"2Remove this unused private "getJdkVersion" method.(’â³†
+J
+java:S1144:"/Remove this unused private "createFile" method.(í–¨©üÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ù Ø¢úÿÿÿÿ
+M
+java:S1854V"7Remove this useless assignment to local variable "out".(§„È
+E
+java:S2093v"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(³ä¨şÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(Æ›ê
+G
+java:S1144e",Remove this unused private "cpyFile" method.(’±§Áøÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Îÿ¥¯ıÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(èÄ¸•
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.( È¹´şÿÿÿÿ
+P	java:S899A";Do something with the "boolean" value returned by "delete".(²“µš
+`	java:S112e"FDefine and throw a dedicated exception instead of using a generic one.(’±§Áøÿÿÿÿ
+d
+java:S2095U"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(–ˆÿ½
+_
+java:S2095V"IUse try-with-resources or close this "PrintStream" in a "finally" clause.(§„È
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+>
+java:S1481V"(Remove this unused "out" local variable.(§„È
+V	java:S125h"<This block of commented-out lines of code should be removed.(è¤âıÿÿÿÿ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(µŠ¡Ôúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëê†•
+V
+java:S1075G"ARefactor your code to get this URI from a customizable parameter.(¤îÉ

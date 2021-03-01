@@ -1,0 +1,90 @@
+Classfile /Users/xiaoxiangjie/project/testproject/running/jvm/src/main/java/com/xxjsmile/jvm/mashibing/OperandStack.class
+  Last modified 2021-1-28; size 444 bytes
+  MD5 checksum 12d450daf60a86e92307a5607d4ad55d
+  Compiled from "OperandStack.java"
+public class com.xxjsmile.jvm.mashibing.OperandStack
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #5.#20         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #4.#21         // com/xxjsmile/jvm/mashibing/OperandStack.sex1:I
+   #3 = Fieldref           #4.#22         // com/xxjsmile/jvm/mashibing/OperandStack.sex2:I
+   #4 = Class              #23            // com/xxjsmile/jvm/mashibing/OperandStack
+   #5 = Class              #24            // java/lang/Object
+   #6 = Utf8               sex1
+   #7 = Utf8               I
+   #8 = Utf8               ConstantValue
+   #9 = Integer            97
+  #10 = Utf8               sex2
+  #11 = Utf8               <init>
+  #12 = Utf8               ()V
+  #13 = Utf8               Code
+  #14 = Utf8               LineNumberTable
+  #15 = Utf8               add
+  #16 = Utf8               ()I
+  #17 = Utf8               <clinit>
+  #18 = Utf8               SourceFile
+  #19 = Utf8               OperandStack.java
+  #20 = NameAndType        #11:#12        // "<init>":()V
+  #21 = NameAndType        #6:#7          // sex1:I
+  #22 = NameAndType        #10:#7         // sex2:I
+  #23 = Utf8               com/xxjsmile/jvm/mashibing/OperandStack
+  #24 = Utf8               java/lang/Object
+{
+  public final int sex1;
+    descriptor: I
+    flags: ACC_PUBLIC, ACC_FINAL
+    ConstantValue: int 97
+
+  public static int sex2;
+    descriptor: I
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  public com.xxjsmile.jvm.mashibing.OperandStack();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        97
+         7: putfield      #2                  // Field sex1:I
+        10: return
+      LineNumberTable:
+        line 3: 0
+        line 6: 4
+
+  public int add();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=1
+         0: bipush        10
+         2: istore_2
+         3: bipush        20
+         5: istore_3
+         6: iload_2
+         7: iload_3
+         8: iadd
+         9: bipush        99
+        11: iadd
+        12: ireturn
+      LineNumberTable:
+        line 11: 0
+        line 12: 3
+        line 13: 6
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: bipush        98
+         2: putstatic     #3                  // Field sex2:I
+         5: return
+      LineNumberTable:
+        line 7: 0
+}
+SourceFile: "OperandStack.java"

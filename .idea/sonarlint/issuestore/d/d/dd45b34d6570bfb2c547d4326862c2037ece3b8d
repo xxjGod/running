@@ -1,0 +1,15 @@
+
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¸ØïU8ØñÖô.
+V	java:S125"<This block of commented-out lines of code should be removed.(ş—æ8ÓøÁœô.
+O
+java:S3740"/Provide the parametrized type for this generic.(ß’£ÿÿÿÿÿ8»¾Êô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ8ºöËô.
+™
+java:S1130"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ªù›“øÿÿÿÿ8£ªÖô.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(İè¬øÿÿÿÿ8ˆÁ×ô.
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ºöËô.
+J
+java:S3740"/Provide the parametrized type for this generic.(æë™¶8¶Éô.
+J
+java:S3740"/Provide the parametrized type for this generic.(æë™¶8¶Éô.

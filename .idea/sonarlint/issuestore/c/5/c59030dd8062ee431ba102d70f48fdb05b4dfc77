@@ -1,0 +1,37 @@
+
+Z
+java:S1854"?Remove this useless assignment to local variable "placeholder".(¸›Â«8ŠÙÊô.
+M
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÖæêÊô.
+K
+java:S1481"0Remove this unused "placeholder" local variable.(¸›Â«8½ñëÊô.
+o
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8ŠÙÊô.
+K
+java:S1481"0Remove this unused "placeholder" local variable.(¸›Â«8·¦êÊô.
+U
+java:S1854"5Remove this useless assignment to local variable "a".(ò†äıÿÿÿÿ8ş¾ìÊô.
+F
+java:S1481"&Remove this unused "a" local variable.(ò†äıÿÿÿÿ8ş¾ìÊô.
+K
+java:S1481"0Remove this unused "placeholder" local variable.(¸›Â«8¯Æ÷Êô.
+F
+java:S1481"&Remove this unused "a" local variable.(ò†äıÿÿÿÿ8¯Æ÷Êô.
+U
+java:S1854"5Remove this useless assignment to local variable "a".(ò†äıÿÿÿÿ8¯Æ÷Êô.
+o
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8½ñëÊô.
+o
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8¯Æ÷Êô.
+Z
+java:S1854"?Remove this useless assignment to local variable "placeholder".(¸›Â«8¯Æ÷Êô.
+M
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8½ñëÊô.
+o
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8·¦êÊô.
+K
+java:S1481"0Remove this unused "placeholder" local variable.(¸›Â«8ŠÙÊô.
+Z
+java:S1854"?Remove this useless assignment to local variable "placeholder".(¸›Â«8½ñëÊô.
+Z
+java:S1854"?Remove this useless assignment to local variable "placeholder".(¸›Â«8·¦êÊô.
