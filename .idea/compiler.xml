@@ -23,20 +23,20 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="design" target="1.5" />
+      <module name="design" target="1.8" />
       <module name="jdk8" target="8" />
-      <module name="jdk9" target="1.5" />
+      <module name="jdk9" target="1.8" />
       <module name="jvm" target="6" />
-      <module name="logo" target="1.5" />
-      <module name="module1" target="1.5" />
-      <module name="netty" target="1.5" />
-      <module name="nettyserver" target="1.5" />
-      <module name="probe" target="1.5" />
+      <module name="logo" target="1.8" />
+      <module name="module1" target="1.8" />
+      <module name="netty" target="1.8" />
+      <module name="nettyserver" target="1.8" />
+      <module name="probe" target="1.8" />
       <module name="reactor" target="8" />
-      <module name="running" target="1.5" />
+      <module name="running" target="1.8" />
       <module name="util" target="8" />
-      <module name="webflux" target="1.5" />
-      <module name="webproject" target="1.5" />
+      <module name="webflux" target="1.8" />
+      <module name="webproject" target="1.8" />
       <module name="work" target="8" />
     </bytecodeTargetLevel>
   </component>
