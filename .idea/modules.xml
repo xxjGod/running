@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/netty/nettyserver/nettyserver.iml" filepath="$PROJECT_DIR$/netty/nettyserver/nettyserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/probe/probe.iml" filepath="$PROJECT_DIR$/probe/probe.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactor/reactor.iml" filepath="$PROJECT_DIR$/reactor/reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/running.iml" filepath="$PROJECT_DIR$/.idea/running.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
       <module fileurl="file://$PROJECT_DIR$/webflux/webflux.iml" filepath="$PROJECT_DIR$/webflux/webflux.iml" />
