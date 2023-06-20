@@ -7,25 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jvm" />
-        <module name="webproject" />
-        <module name="rocketmq" />
-        <module name="work" />
-        <module name="reactor" />
-        <module name="webflux" />
-        <module name="module1" />
-        <module name="probe" />
-        <module name="util" />
-        <module name="jdk8" />
-        <module name="design" />
-        <module name="nettyserver" />
-        <module name="logo" />
-        <module name="jdk9" />
-        <module name="netty" />
+        <module name="enjoy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="design" target="1.5" />
+      <module name="enjoy" target="8" />
       <module name="jdk8" target="8" />
       <module name="jdk9" target="1.5" />
       <module name="jvm" target="6" />
@@ -40,7 +27,6 @@
       <module name="util" target="8" />
       <module name="webflux" target="1.5" />
       <module name="webproject" target="1.5" />
-      <module name="work" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

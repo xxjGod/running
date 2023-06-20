@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/designmode/design.iml" filepath="$PROJECT_DIR$/designmode/design.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jdk8/jdk8.iml" filepath="$PROJECT_DIR$/jdk8/jdk8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jdk9/jdk9.iml" filepath="$PROJECT_DIR$/jdk9/jdk9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logo/logo.iml" filepath="$PROJECT_DIR$/logo/logo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module1/module1.iml" filepath="$PROJECT_DIR$/module1/module1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty/nettyserver/nettyserver.iml" filepath="$PROJECT_DIR$/netty/nettyserver/nettyserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/probe/probe.iml" filepath="$PROJECT_DIR$/probe/probe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reactor/reactor.iml" filepath="$PROJECT_DIR$/reactor/reactor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work/enjoy.iml" filepath="$PROJECT_DIR$/work/enjoy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/running.iml" filepath="$PROJECT_DIR$/.idea/running.iml" />
-      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webflux/webflux.iml" filepath="$PROJECT_DIR$/webflux/webflux.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tomcat/webproject.iml" filepath="$PROJECT_DIR$/tomcat/webproject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/work/work.iml" filepath="$PROJECT_DIR$/work/work.iml" />
     </modules>
   </component>
 </project>
